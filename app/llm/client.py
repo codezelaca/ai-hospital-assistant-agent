@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+from google import genai
+
+load_dotenv()
+
+client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+
+
+def call_llm(prompt: str) -> str:
+    response = client.models.generate_content(
+        model="gemini-flash-latest",
+        contents=[
+            {
+                "role": "user",
+                "parts": [{"text": prompt}]
+            }
+        ]
+    )
+
+    return response.text or ""
