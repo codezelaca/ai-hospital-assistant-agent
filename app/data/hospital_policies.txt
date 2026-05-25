@@ -1,0 +1,17 @@
+Hospital Visiting Hours:
+Visitors are allowed from 8 AM to 7 PM daily.
+
+Emergency Department:
+Emergency services are available 24/7.
+
+Admission Requirements:
+Patients must bring:
+- National ID card
+- Insurance documents
+- Previous medical reports
+
+ICU Rules:
+Only close family members are allowed in ICU visits.
+
+Appointments:
+Appointments can be booked through the hospital reception desk.

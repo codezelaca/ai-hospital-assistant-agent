@@ -1,7 +1,7 @@
 from app.llm.client import call_llm
 
 
-def classify_node(state):
+def classifier_node(state):
     prompt = f"""
 You are a strict classifier for a hospital support system.
 
